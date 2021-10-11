@@ -1,0 +1,18 @@
+%Octave Script 
+%Title            :Inecuaciones en octave 
+%Description      :se realiza un codigo que resuelva Ineciaciones  y grafique
+%Author           :Jafet Martinez Meza, Adriana Trejo Patricio, Jonatan Aparicio Quintanar
+%Date             :202123653,202123048
+%Version          :1.0
+%Usage            :C:\Users\JonatanAQ\octave
+"Inecuciones primer grado"
+syms x
+solve (2*x + 6 < 0)
+solve (-3*x + 6 > 0)
+solve (x*2 + 4*x +3 >0)
+"Inecuaciones de Segundo Grado"
+solve (x^2-5*x-6>0)
+solve (2*x^2-x<2*x-1)
+"Inecuaciones de Valor Absoluto"
+abs (x+6)
+abs (2*x+3)
